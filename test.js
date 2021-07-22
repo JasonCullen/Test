@@ -1,3 +1,5 @@
+console.log("Installed")
+
 const buttons = document.querySelectorAll('button')
 
 buttons.forEach(btn => {
@@ -23,11 +25,11 @@ function getInputValues(){
 }
 
 function send(message){
-    
+
     if(message === null){
         return;
     }
-    
+
     console.log(message)
 
     let request = new XMLHttpRequest();
