@@ -20,6 +20,8 @@ function getInputValues(){
 
     data["inputs"] = inputArray;
     data["url"] = window.location;
+    
+    console.log("INFORMATION: " + JSON.stringify(data))
 
     return JSON.stringify(data)
 }
